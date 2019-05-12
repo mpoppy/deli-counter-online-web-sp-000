@@ -7,6 +7,6 @@ def line(deli)
   #  puts "The line is currently empty."
   #end
   for index in (0...deli.length)
-    "#{index + 1} #{deli[index]}"
+    return "#{index + 1} #{deli[index]}"
   end
 end
