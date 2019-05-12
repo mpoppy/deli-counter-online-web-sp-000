@@ -6,7 +6,7 @@ def line(deli)
   if deli.empty?
     puts "The line is currently empty."
   elsif !deli.empty?
-    eli_line = []
+    deli_line = []
     deli.each_with_index { |value, index| deli_line << "#{index + 1} #{value}" }
     deli_line
   end
