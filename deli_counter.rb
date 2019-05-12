@@ -8,7 +8,7 @@ def line(deli)
   elsif !deli.empty?
     deli_line = []
     deli.each_with_index { |value, index| deli_line << "#{index + 1} #{value}" }
-    deli_line
+    puts "The line is currently: #{deli_line.join}"
   end
 end
 #i have an array - display the current perople in line ---
