@@ -7,7 +7,6 @@ def line(deli)
   #  puts "The line is currently empty."
   #end
   for index in (0...deli.length)
-    deli_line = []
-    deli_line << "The line is currently: #{index + 1} #{deli[index]}"
+    "The line is currently: #{index + 1} #{deli[index]}"
   end
 end
