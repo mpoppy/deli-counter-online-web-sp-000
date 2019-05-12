@@ -11,6 +11,7 @@ def line(deli)
   deli.each do |person|#index 0
     person << person[index]
   end
+  deli.map 
 end
 #i have an array - display the current perople in line ---
 #the line is currently. 1 name, 2 name, 3 name, etc.
