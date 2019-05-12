@@ -9,7 +9,7 @@ def line(deli)
 #end
 
   deli.each do |person|#index 0
-    person << person[index]
+    person << deli[index]
   end
   deli.map 
 end
