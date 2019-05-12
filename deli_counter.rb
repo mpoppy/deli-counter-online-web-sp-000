@@ -10,5 +10,4 @@ def line(deli)
     deli_line = []
     deli_line << "The line is currently: #{index + 1} #{deli[index]}"
   end
-  return deli_line
 end
