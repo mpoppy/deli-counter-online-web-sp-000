@@ -9,7 +9,7 @@ def line(deli)
 #end
 
   deli.map do |person|#index 0
-    person << deli[index]
+    person[index]
   end
 end
 #i have an array - display the current perople in line ---
