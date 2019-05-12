@@ -7,10 +7,8 @@ def line(deli)
 #    puts "The line is currently empty."
 #  end
 #end
-
-  deli.map do |person|#index 0
-    person[index]
-  end
+  deli_line = []
+  deli.each_with_index { |index,value| deli_line << value + index}
 end
 #i have an array - display the current perople in line ---
 #the line is currently. 1 name, 2 name, 3 name, etc.
