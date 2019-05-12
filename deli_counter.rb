@@ -8,7 +8,7 @@ def line(deli)
 #  end
 #end
   deli_line = []
-  deli.each_with_index { |value, index| deli_line << value + index }
+  deli.each_with_index { |value, index| deli_line << "#{value} + #{index}" }
   deli_line
 end
 #i have an array - display the current perople in line ---
