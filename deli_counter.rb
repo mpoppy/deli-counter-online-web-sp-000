@@ -8,7 +8,7 @@ def line(deli)
 #  end
 #end
 
-  deli.each do |person|#index 0
+  deli.map do |person|#index 0
     person << deli[index]
   end
   deli.map
