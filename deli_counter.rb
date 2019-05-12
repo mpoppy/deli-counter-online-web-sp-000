@@ -7,3 +7,9 @@ def line(deli)
     puts "The line is currently empty."
   end
 end
+
+  deli.each do |person|#index 0
+    person << person[index]
+  end
+#i have an array - display the current perople in line ---
+#the line is currently. 1 name, 2 name, 3 name, etc.
